@@ -1,0 +1,195 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+:root {
+    
+    --maincolor: #96B011;
+    --text: #332019;
+}
+
+img {
+    width: 100%;
+}
+body * {
+}
+
+html {
+    font-size: 62.5%;  
+}
+img {
+    max-width: 100%;
+    width: auto; /* pour ie */
+    height: auto;
+    -ms-interpolation-mode: bicubic; /* lissage pour IE */
+    image-rendering: -webkit-optimize-contrast; /* lissage pour Chrome au redimensionnement*/
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-family:'Amaranth', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color:var(--maincolor)
+}
+h3 {
+    font-size: 2rem;
+}
+
+/* HEADER */
+
+header, footer {
+       background-color: var(--maincolor);
+       background-image: url('../img/bg.jpg');
+       background-position: center;
+       background-size: auto;
+       background-repeat: no-repeat;
+       
+}
+
+
+.bandeau {
+    background-color: #97b11170;
+    color:white;
+    text-align: center;
+}
+
+.panier {
+    color:white;
+}
+
+header a, header ul,footer a, footer ul, .tendance a{
+    list-style:none;
+    text-decoration: none;
+}
+
+nav a, footer {
+    color:white;
+    
+}
+
+.headspe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul  {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 1rem;
+}
+
+.assurance {
+    display:
+    flex;
+    justify-content: space-around;
+    opacity: 80%;
+    
+}
+
+.assurance p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+
+.assurance i {
+    margin-bottom: 1rem;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    opacity: 80%;
+    width: 40%;
+}
+
+.footspe {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.2rem;
+    /* opacity: 50%; */
+}
+
+footer h2 {
+    color:white;
+}
+
+.tea {
+    display:flex;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tendance {
+    display: flex;
+    flex-direction: column;
+}
+
+.tendmain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.tendance a {
+    padding:2rem;
+    background-color:beige;
+}
+
+.members>section {
+    display: flex;
+}
+
+.concept {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: beige;
+    padding: 2rem;
+}
+
+.concept i {
+    background-color: var(--maincolor);
+    border-radius: 50%;
+    padding: 2rem;
+    color:white;
+}
+
+div {
+    margin-bottom: 5rem;
+}
+
+.xavier {
+    
+flex-direction: row-reverse;
+}
+
+.en-tete {
+    display: flex;
+}
+
+.type .tendmain {
+    
+}
